@@ -18,7 +18,7 @@ Save the file as **screenfetch.gif**.
 
 ### Installing VirtualBox and Kali
 
-<img src="vbox_kali.gif" alt="Kali Installation">
+<img src="docker_kali.gif" alt="Kali Installation">
 ![docker_kali](https://user-images.githubusercontent.com/108279056/191424312-995944b6-35b3-4943-890d-7c021e72f3ee.gif)
 
 ### Running screenfetch
