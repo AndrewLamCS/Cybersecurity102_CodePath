@@ -11,9 +11,6 @@ Time spent: **X** hours spent in total
 name="Andrew Lam"
 univ="John Jay"
 
-screenfetch
-echo $Andrew Lam'@'$John Jay
-```
 
 Save the file as **screenfetch.gif**.
 
@@ -21,4 +18,4 @@ Save the file as **screenfetch.gif**.
 
 ### Installing VirtualBox and Kali
 
-![Kapture 2022-09-21 at 00 54 34](https://user-images.githubusercontent.com/108279056/191417918-fecc6ee0-1fcd-4af7-8b6e-78cfab932331.gif)
+![screenfetch](https://user-images.githubusercontent.com/108279056/191418169-ed6f1f75-5633-4758-914b-8b8bd247b268.gif)
