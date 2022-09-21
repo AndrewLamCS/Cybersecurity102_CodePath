@@ -18,4 +18,6 @@ Save the file as **screenfetch.gif**.
 
 ### Installing VirtualBox and Kali
 
-![Kapture 2022-09-21 at 01 36 43](https://user-images.githubusercontent.com/108279056/191422775-05241aa8-8185-400b-852c-903da0705492.gif)
+![screenfetch](https://user-images.githubusercontent.com/108279056/191423598-280883e6-e3be-4867-a256-6eff481e5458.gif)
+
+
