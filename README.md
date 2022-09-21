@@ -1,6 +1,6 @@
 # Project 3 - VirtualBox and Kali
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 **Homework Instructions**: 
 
@@ -18,4 +18,5 @@ Save the file as **screenfetch.gif**.
 
 ### Installing VirtualBox and Kali
 
-![screenfetch](https://user-images.githubusercontent.com/108279056/191418902-8a072e49-9a60-4873-80e2-a341e57fdd03.gif)
+
+![Kapture 2022-09-21 at 00 54 34](https://user-images.githubusercontent.com/108279056/191419771-8bb8665c-333d-44d7-90da-740efdcf56dd.gif)
