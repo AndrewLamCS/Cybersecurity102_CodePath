@@ -20,4 +20,5 @@ Save the file as **screenfetch.gif**.
 
 ![screenfetch](https://user-images.githubusercontent.com/108279056/191418261-5da8d4bc-84c1-42ee-a1f4-9be52e064e19.gif)
 
+![screenfetch](https://user-images.githubusercontent.com/108279056/191418340-5b30507b-937d-412b-8955-c384dfa64469.gif)
 
