@@ -21,17 +21,24 @@ Time spent: 6 hours spent in total
             <a href="</a><a title=" onmouseover="alert('HACKER ALERT!!!!XSS!!!')" "="">link</a>
 - [ ] Affected source code:
   [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
+  http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit
   
 ### 2. (Required) Vulnerability Name or ID: 
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+  - Vulnerability types: XSS
+  - Tested in version: WordPress 6.0.3
+  - Fixed in version: - (lastest version)
 - [ ] GIF Walkthrough: 
+  <img src="Vuln2.gif" width="800">
 - [ ] Steps to recreate: 
+      1) Create a new page
+      2) Inject script as a mouse-over button into heading/title of page disguised as a letter of title.
+      3) Add the following code into the post: 
+          <input type="BUTTON" onmouseover="alert('HELLO I AM TRYING TO REACH YOU ABOUT YOUR CARS OVERDUE EXTENDED WARRANTY PAYMENT. PLEASE CALL XXX-   XXX-XXXX WITH YOUR CREDIT CARD INFORMATION.')">
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
+  http://127.0.0.1:8181/?page_id=55
 
 ### 3. (Required) Vulnerability Name or ID
 
