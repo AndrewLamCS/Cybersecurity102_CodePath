@@ -12,7 +12,8 @@ Time spent: 6 hours spent in total
   - Vulnerability types: XSS
   - Tested in version: WordPress 6.0.3
   - Fixed in version: - (lastest version)
-- [ ] GIF Walkthrough: <img src="Vuln1_XSS.gif" width="800">
+- [ ] GIF Walkthrough: 
+  <img src="Vuln1_XSS.gif" width="800">
 - [ ] Steps to recreate: 
       1) Create a new post
       2) Use "Custom HTML" under widgets
@@ -21,7 +22,7 @@ Time spent: 6 hours spent in total
 - [ ] Affected source code:
   [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
   
-### 2. (Required) Vulnerability Name or ID
+### 2. (Required) Vulnerability Name or ID: 
 
 - [ ] Summary: 
   - Vulnerability types:
