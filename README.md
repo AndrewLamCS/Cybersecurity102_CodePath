@@ -70,10 +70,9 @@ Time spent: 6 hours spent in total
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-  
-  GIFS made with Kap: 
-  https://getkap.co/
 
+  
+  
 ### 5. (Optional) Vulnerability Name or ID
 
 - [ ] Summary: 
@@ -94,7 +93,7 @@ List any additional assets, such as scripts or files
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with  ...
+GIFs created with ... https://getkap.co/
 <!-- Recommended GIF Tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
