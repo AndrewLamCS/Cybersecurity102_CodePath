@@ -23,7 +23,7 @@ Time spent: 6 hours spent in total
   [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
   http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit
   
-### 2. (Required) Vulnerability Name or ID: 
+### 2. (Required) Vulnerability Name or ID: Cross-Site Scripting (XSS)
 
 - [ ] Summary: 
   - Vulnerability types: XSS
@@ -40,16 +40,25 @@ Time spent: 6 hours spent in total
   [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
   http://127.0.0.1:8181/?page_id=55
 
-### 3. (Required) Vulnerability Name or ID
+### 3. (Required) Vulnerability Name or ID: User Enumeration
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+  - Vulnerability types: User Enumeration
+  - Tested in version: 6.0.3 
+  - Fixed in version: - (latest version)
 - [ ] GIF Walkthrough: 
+<img src="Vuln3.gif" width="800">
 - [ ] Steps to recreate: 
+      1) Log in as administrator
+      2) Click Users on sidebar --> Add New
+      3) Enter username, email, first/last name, and password
+      4) Log out
+      5) Enter an existing username in users list and attempt a incorrect password
+      6) You should be able to view an error message confirming that the user exists:
+          "Error: The password you entered for the username admin is incorrect. Lost your password?"
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  http://127.0.0.1:8181/wp-login.php
 
 ### 4. (Optional) Vulnerability Name or ID
 
