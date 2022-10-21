@@ -21,7 +21,7 @@ Time spent: 6 hours spent in total
             <a href="</a><a title=" onmouseover="alert('HACKER ALERT!!!!XSS!!!')" "="">link</a>
 - [ ] Affected source code:
   [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
-  http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit
+  
   
 ### 2. (Required) Vulnerability Name or ID: Cross-Site Scripting (XSS)
 
@@ -38,7 +38,7 @@ Time spent: 6 hours spent in total
           <input type="BUTTON" onmouseover="alert('HELLO I AM TRYING TO REACH YOU ABOUT YOUR CARS OVERDUE EXTENDED WARRANTY PAYMENT. PLEASE CALL XXX-   XXX-XXXX WITH YOUR CREDIT CARD INFORMATION.')">
 - [ ] Affected source code:
   [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
-  http://127.0.0.1:8181/?page_id=55
+ 
 
 ### 3. (Required) Vulnerability Name or ID: User Enumeration
 
@@ -57,8 +57,8 @@ Time spent: 6 hours spent in total
  - 6) You should be able to view an error message confirming that the user exists:
           "Error: The password you entered for the username admin is incorrect. Lost your password?"
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-  http://127.0.0.1:8181/wp-login.php
+  - [Link 1](http://127.0.0.1:8181/wp-login.php)
+
 
 ### 4. (Optional) Vulnerability Name or ID
 
