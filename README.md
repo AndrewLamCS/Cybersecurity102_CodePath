@@ -13,7 +13,7 @@ Time spent: 6 hours spent in total
   - Tested in version: WordPress 6.0.3
   - Fixed in version: - (latest version)
 - [ ] GIF Walkthrough: 
-  <img src="Vuln1_XSS.gif" width="800">
+<img src="Vuln1_XSS.gif" width="800">
 - [ ] Steps to recreate: 
       1) Create a new post
       2) Use "Custom HTML" under widgets
@@ -30,7 +30,7 @@ Time spent: 6 hours spent in total
   - Tested in version: WordPress 6.0.3
   - Fixed in version: - (latest version)
 - [ ] GIF Walkthrough: 
-  <img src="Vuln2.gif" width="800">
+<img src="Vuln2.gif" width="800">
 - [ ] Steps to recreate: 
       1) Create a new page
       2) Inject script as a mouse-over button into heading/title of page disguised as a letter of title.
