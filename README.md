@@ -15,9 +15,9 @@ Time spent: 6 hours spent in total
 - [ ] GIF Walkthrough: 
 <img src="Vuln1_XSS.gif" width="800">
 - [ ] Steps to recreate: 
-      - 1) Create a new post
-      - 2) Use "Custom HTML" under widgets
-      - 3) Add the following code into the post: 
+  - 1) Create a new post
+  - 2) Use "Custom HTML" under widgets
+  - 3) Add the following code into the post: 
             <a href="</a><a title=" onmouseover="alert('HACKER ALERT!!!!XSS!!!')" "="">link</a>
 - [ ] Affected source code:
   [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
@@ -32,9 +32,9 @@ Time spent: 6 hours spent in total
 - [ ] GIF Walkthrough: 
 <img src="Vuln2.gif" width="800">
 - [ ] Steps to recreate: 
-      - 1) Create a new page
-      - 2) Inject script as a mouse-over button into heading/title of page disguised as a letter of title.
-      - 3) Add the following code into the post: 
+ - 1) Create a new page
+ - 2) Inject script as a mouse-over button into heading/title of page disguised as a letter of title.
+ - 3) Add the following code into the post: 
           <input type="BUTTON" onmouseover="alert('HELLO I AM TRYING TO REACH YOU ABOUT YOUR CARS OVERDUE EXTENDED WARRANTY PAYMENT. PLEASE CALL XXX-   XXX-XXXX WITH YOUR CREDIT CARD INFORMATION.')">
 - [ ] Affected source code:
   [Link 1](http://127.0.0.1:8181/wp-admin/post.php?post=18&action=edit)
@@ -49,12 +49,12 @@ Time spent: 6 hours spent in total
 - [ ] GIF Walkthrough: 
 <img src="Vuln3.gif" width="800">
 - [ ] Steps to recreate: 
-      - 1) Log in as administrator
-      - 2) Click Users on sidebar --> Add New
-      - 3) Enter username, email, first/last name, and password
-      - 4) Log out
-      - 5) Enter an existing username in users list and attempt a incorrect password
-      - 6) You should be able to view an error message confirming that the user exists:
+ - 1) Log in as administrator
+ - 2) Click Users on sidebar --> Add New
+ - 3) Enter username, email, first/last name, and password
+ - 4) Log out
+ - 5) Enter an existing username in users list and attempt a incorrect password
+ - 6) You should be able to view an error message confirming that the user exists:
           "Error: The password you entered for the username admin is incorrect. Lost your password?"
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
