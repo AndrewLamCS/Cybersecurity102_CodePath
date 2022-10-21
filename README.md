@@ -15,6 +15,10 @@ Time spent: 6 hours spent in total
 - [ ] GIF Walkthrough: 
 <img src="Vuln1_XSS.gif" width="800">
 - [ ] Steps to recreate: 
+  - Vulnerability types: XSS
+  - Tested in version: WordPress 6.0.3
+  - Fixed in version: - (latest version)
+  
   - 1) Create a new post
   - 2) Use "Custom HTML" under widgets
   - 3) Add the following code into the post: 
