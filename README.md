@@ -41,13 +41,17 @@ Description:
 <img src="Unit_8_XSS.gif">
 
 
-## Red
+## Green
 
-Vulnerability #3: __________________
+Vulnerability #3: User Enumeration
 
 Description:
+1) When clicking the Login section, the Username and Password fields are shown.
+2) When we enter a fake username (i.e. "hello") and password, an error displays: "Please fix the following errors: Log in was unsuccessful"
+3) When entering a valid username (i.e. "jmonroe99" and incorrect password, the same error displays. However, it is in BOLD font indicating that the user may exist. 
+4) This only occurs in the GREEN site
 
-<img src="red-vuln1.gif">
+<img src="Unit_8_UserEnumeration.gif">
 
 
 ## Notes
