@@ -15,7 +15,7 @@ The six possible exploits are:
 
 Each color is vulnerable to only 2 of the 6 possible exploits. First discover which color has the specific vulnerability, then write a short description of how to exploit it, and finally demonstrate it using screenshots compiled into a GIF.
 
-## Blue
+## RED
 
 Vulnerability #1: Insecure Direct Object Reference
 
@@ -30,16 +30,20 @@ Description:
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #2: Cross-Site Scripting (XSS)
 
 Description:
+1) Under the "Contact" section, we can find a feedback form that we can exploit by injecting javascript
+2) In the Name and Feedback fields, we can enter <script>alert('Andrew found the XSS!');</script>
+3) After logging into the site using given credentials, we navigate to the MENU, then Feedback
+4) Upon clicking the Feedback button, the script alert is shown in the GREEN site.
 
-<img src="green-vuln1.gif">
+<img src="Unit_8_XSS.gif">
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #3: __________________
 
 Description:
 
