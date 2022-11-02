@@ -59,3 +59,10 @@ SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 ## Notes
 
 Describe any challenges encountered while doing the assignment.
+
+The region and zone settings were not being saved. I used the following command to unset metadata: 
+
+gcloud compute project-info remove-metadata \
+   --keys=google-compute-default-region,google-compute-default-zone
+   
+It then prompts the user for region/zone, where you can then select it from a list.
